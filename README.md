@@ -9,7 +9,7 @@
 ## Основная часть
 
 1. Попробуйте запустить playbook на окружении из `test.yml`, зафиксируйте значение, которое имеет факт `some_fact` для указанного хоста при выполнении playbook.
-![Запуск `test.yml](https://github.com/pythonyandex/Ansible_L1/blob/main/AnsibleL1_1.png)`
+![Запуск `test.yml`](https://github.com/pythonyandex/Ansible_L1/blob/main/AnsibleL1_1.png)`
 2. Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на `all default fact`.
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
